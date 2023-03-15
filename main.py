@@ -49,7 +49,7 @@ def uploadImage():
   return srcURL
 
 app = Flask(__name__)
-
+CORS(app)
 
 @app.route('/', methods=['POST'])
 def hello_world():
