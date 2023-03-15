@@ -61,7 +61,7 @@ def hello_world():
     url = uploadImage()
     res = make_response(jsonify({"url": url}))
     res.headers['Access-Control-Allow-Origin'] = '*'
-    return 
+    return res
 
 
 if __name__ == '__main__':
