@@ -8,7 +8,6 @@ import cloudinary
 import cloudinary.uploader
 import cloudinary.api
 import json
-from quart_cors import cors
 from flask_cors import CORS
 import pandas as pd
 from googleapiclient.discovery import build
